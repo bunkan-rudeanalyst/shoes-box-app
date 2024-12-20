@@ -1,16 +1,42 @@
-# shoes_box_app
+# About this app
 
-A new Flutter project.
+This app helps you manage sneaker collection.
 
-## Getting Started
+# Architecture
 
-This project is a starting point for a Flutter application.
+This app is built based on the Riverpod architecture.
 
-A few resources to get you started if this is your first Flutter project:
+## Riverpod Architecture
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+The Riverpod architecture is a concept developed by Andrea Bizzotto. 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+A key feature of this app is the comprehensive adoption of Riverpod for its overall structure.
+
+For more details, please refer to the following link:
+
+https://codewithandrea.com/articles/flutter-app-architecture-riverpod-introduction/
+
+it consists of:
+- the Presentation layer
+  - view
+- Application layer
+  - business logic
+- Domain layer
+  - models
+- Data layer
+  - repository
+  - data source(backend)
+
+# tech stack
+
+## mobile 
+
+- Flutter
+  - Riverpod(state management)
+
+## backend
+
+- Firebase
+  - Authentication(user management)
+  - Cloud FireStore(Sneaker data store)
+
